@@ -13,14 +13,12 @@ export const clientRouter = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "home",
+        path: "/home",
         element: <Navigate to={"/"} />,
-        children: [
-          {
-            path: ":id",
-            element: <Room />,
-          },
-        ],
+      },
+      {
+        path: "home/:id",
+        element: <Room />,
       },
 
       {

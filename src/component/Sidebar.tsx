@@ -4,7 +4,7 @@ const Sidebar: React.FC = () => {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
-      style={{ width: "280px", height: "2000px" }}
+      style={{ width: "280px", height: "730px" }}
     >
       <a
         href="/"
@@ -57,7 +57,9 @@ const Sidebar: React.FC = () => {
             Customers
           </a>
         </li>
+        <p className="mt-3 m-3">Chat</p>
       </ul>
+
       <hr />
       <div className="dropdown">
         <a

@@ -1,0 +1,40 @@
+.submit-content {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  width: 700px;
+  min-height: 40px; /* ensure container has height for vertical centering */
+  position: relative;
+}
+
+/* optional: limit input width so it doesn't stretch full width */
+.submit-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 120px 10px 16px; /* leave space on right for the button */
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+.submit-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 36px;
+  padding: 6px 14px;
+  border-radius: 14px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.title {
+  justify-content: center; /* center horizontally */
+  align-self: center;
+  font-size: 30px;
+}
